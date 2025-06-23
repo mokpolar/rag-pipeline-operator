@@ -1,0 +1,9 @@
+apiVersion: rag.rag.mokpolar.dev/v1alpha1
+kind: RagPipeline
+metadata:
+  labels:
+    app.kubernetes.io/name: rag-pipeline-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: ragpipeline-sample
+spec:
+  # TODO(user): Add fields here
